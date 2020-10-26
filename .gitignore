@@ -1,0 +1,3 @@
+*.m~
+figures/*.obj
+figures/*.ply
