@@ -10,7 +10,7 @@ git clone --recursive https://github.com/sgsellan/opening-and-closing-surfaces.g
 ```
 After this, we will build the mex functions in the `gptoolbox` directory:
 ```
-cd developability-of-heightfields/gptoolbox/mex
+cd opening-and-closing-surfaces/gptoolbox/mex
 mkdir build
 cd build
 cmake ..
