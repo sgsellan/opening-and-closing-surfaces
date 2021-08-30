@@ -13,7 +13,7 @@ After this, we will build the mex functions in the `gptoolbox` directory:
 cd opening-and-closing-surfaces/gptoolbox/mex
 mkdir build
 cd build
-cmake ..
+cmake .. -DMatlab_ROOT_DIR=“MATLAB_ROOT_DIRECTORY” (i.e. /usr/local/MATLAB/R2021a)
 make
 ```
 Then, build our own mex files by entering Matlab and, in Matlab, adding `matlab-include` recursively to your Matlab path (for instance, by running `addpath(genpath(path/to/opening-and-closing-surfaces/matlab-include))`), navigating to `matlab-include/mex/` and running `build_mex` in the Matlab console.
