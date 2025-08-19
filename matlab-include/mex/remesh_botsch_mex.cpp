@@ -9,7 +9,6 @@
 // #include <matlab>
 // Lib IGL includes
 #include <igl/C_STR.h>
-#include <igl/mat_max.h>
 #include <igl/matlab/mexErrMsgTxt.h>
 #include <igl/matlab/MexStream.h>
 #include <igl/matlab/parse_rhs.h>
